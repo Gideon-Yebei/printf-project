@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/build",
+  "command": "/usr/bin/gcc   -g -std=gnu99 -o CMakeFiles/printf.dir/_printf.c.o -c /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/_printf.c",
+  "file": "/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/_printf.c",
+  "output": "CMakeFiles/printf.dir/_printf.c.o"
+},
+{
+  "directory": "/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/build",
+  "command": "/usr/bin/gcc   -g -std=gnu99 -o CMakeFiles/printf.dir/main.c.o -c /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/main.c",
+  "file": "/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/main.c",
+  "output": "CMakeFiles/printf.dir/main.c.o"
+}
+]

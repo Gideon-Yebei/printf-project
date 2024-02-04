@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/zenith/CLionProjects/printf/cmake-build-debug/
+cmake_ninja_workdir = /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target printf
 
@@ -49,14 +49,56 @@ cmake_ninja_workdir = /home/zenith/CLionProjects/printf/cmake-build-debug/
 
 build cmake_object_order_depends_target_printf: phony || CMakeFiles/printf.dir
 
-build CMakeFiles/printf.dir/main.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/CLionProjects/printf/main.c || cmake_object_order_depends_target_printf
+build CMakeFiles/printf.dir/_printf.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/_printf.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/_printf.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/printf.dir
+
+build CMakeFiles/printf.dir/main.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/main.c || cmake_object_order_depends_target_printf
   DEP_FILE = CMakeFiles/printf.dir/main.c.o.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/printf.dir
   OBJECT_FILE_DIR = CMakeFiles/printf.dir
 
-build CMakeFiles/printf.dir/_printf.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/CLionProjects/printf/_printf.c || cmake_object_order_depends_target_printf
-  DEP_FILE = CMakeFiles/printf.dir/_printf.c.o.d
+build CMakeFiles/printf.dir/get_flags.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/get_flags.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/get_flags.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/printf.dir
+
+build CMakeFiles/printf.dir/get_precision.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/get_precision.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/get_precision.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/printf.dir
+
+build CMakeFiles/printf.dir/get_size.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/get_size.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/get_size.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/printf.dir
+
+build CMakeFiles/printf.dir/get_width.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/get_width.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/get_width.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/printf.dir
+
+build CMakeFiles/printf.dir/is_digit.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/is_digit.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/is_digit.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/printf.dir
+
+build CMakeFiles/printf.dir/print_buffer.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/print_buffer.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/print_buffer.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/printf.dir
+  OBJECT_FILE_DIR = CMakeFiles/printf.dir
+
+build CMakeFiles/printf.dir/handle_print.c.o: C_COMPILER__printf_unscanned_Debug /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/handle_print.c || cmake_object_order_depends_target_printf
+  DEP_FILE = CMakeFiles/printf.dir/handle_print.c.o.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/printf.dir
   OBJECT_FILE_DIR = CMakeFiles/printf.dir
@@ -69,7 +111,7 @@ build CMakeFiles/printf.dir/_printf.c.o: C_COMPILER__printf_unscanned_Debug /hom
 #############################################
 # Link the executable printf
 
-build printf: C_EXECUTABLE_LINKER__printf_Debug CMakeFiles/printf.dir/main.c.o CMakeFiles/printf.dir/_printf.c.o
+build printf: C_EXECUTABLE_LINKER__printf_Debug CMakeFiles/printf.dir/_printf.c.o CMakeFiles/printf.dir/main.c.o CMakeFiles/printf.dir/get_flags.c.o CMakeFiles/printf.dir/get_precision.c.o CMakeFiles/printf.dir/get_size.c.o CMakeFiles/printf.dir/get_width.c.o CMakeFiles/printf.dir/is_digit.c.o CMakeFiles/printf.dir/print_buffer.c.o CMakeFiles/printf.dir/handle_print.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/printf.dir
   POST_BUILD = :
@@ -82,7 +124,7 @@ build printf: C_EXECUTABLE_LINKER__printf_Debug CMakeFiles/printf.dir/main.c.o C
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/zenith/CLionProjects/printf/cmake-build-debug && /opt/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/cmake-build-debug && /opt/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -93,7 +135,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/zenith/CLionProjects/printf/cmake-build-debug && /opt/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/zenith/CLionProjects/printf -B/home/zenith/CLionProjects/printf/cmake-build-debug
+  COMMAND = cd /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/cmake-build-debug && /opt/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf -B/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -109,7 +151,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/zenith/CLionProjects/printf/cmake-build-debug
+# Folder: /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/cmake-build-debug
 
 build all: phony printf
 
@@ -120,14 +162,14 @@ build all: phony printf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/zenith/CLionProjects/printf/CMakeLists.txt /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/CMakeLists.txt /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/zenith/CLionProjects/printf/CMakeLists.txt /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/CMakeLists.txt /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

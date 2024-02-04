@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/printf.dir/_printf.c.o CMakeFiles/printf.dir/main.c.o -o printf 
