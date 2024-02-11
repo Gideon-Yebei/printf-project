@@ -9,7 +9,7 @@ NC='\033[0m' # No Color
 # Betty style tests
 betty_check() {
 	echo -e "${YELLOW}Running Betty Checker tests...${NC}"
-	betty_output=$(betty $(find . -name "*.c" -or -name "*.h") 2>&1)
+	betty_output=$(betty "$(find . -name '*.c' -or -name '*.h' ! -path './build/*')" 2>&1)
 	if echo "$betty_output" | grep -qE "(ERROR:|WARNING:)"; then
 		echo -e "${RED}Betty style issues found.${NC}"
 		echo -e "${RED}Issues:${NC}"

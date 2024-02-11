@@ -21,4 +21,34 @@ add_executable(printf
 		print_buffer.c
 		print_buffer.h
 		handle_print.c
-		handle_print.h)
+		handle_print.h
+		append_hexa_code.c
+		append_hexa_code.h
+		convert.c
+		convert.h
+		is_printable.c
+		is_printable.h
+		print_binary.c
+		print_binary.h
+		print_char.c
+		print_char.h
+		handle_write_char.c
+		handle_write_char.h
+		print_hexa.c
+		print_hexa.h
+		write_unsigned.c
+		write_unsigned.h
+		print_hexadecimal.c
+		print_hexadecimal.h
+		print_int.c
+		print_int.h
+		write_string.c
+		write_string.h
+		write_number.c
+		write_number.h
+		write_pointer.c
+		write_pointer.h
+		print_hexa_upper.c
+		print_hexa_upper.h
+		print_unsigned.c
+		print_unsigned.h)

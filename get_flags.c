@@ -1,8 +1,8 @@
-//
-// Created by zenith on 2/4/24.
-//
+/*
+* Created by zenith on 2/3/24.
+*/
 
-#include "get_flags.h"
+#include "main.h"
 
 /**
  * get_flags - Calculates active flags

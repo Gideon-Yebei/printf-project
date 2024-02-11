@@ -1,8 +1,8 @@
-//
-// Created by zenith on 2/4/24.
-//
+/*
+* Created by zenith on 2/3/24.
+*/
 
-#include "is_digit.h"
+
 #include "main.h"
 
 /**

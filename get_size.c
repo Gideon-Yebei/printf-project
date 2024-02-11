@@ -1,8 +1,8 @@
-//
-// Created by zenith on 2/4/24.
-//
+/*
+* Created by zenith on 2/3/24.
+*/
 
-#include "get_size.h"
+
 #include "main.h"
 
 /**

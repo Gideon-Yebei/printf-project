@@ -50,6 +50,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -91,8 +106,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf/cmake-build-debug",
-		"source" : "/home/zenith/Dev/DEVELOPMENT/Clion/Gideon-Yebei/printf"
+		"build" : "/home/zenith/CLionProjects/printf-project/cmake-build-debug",
+		"source" : "/home/zenith/CLionProjects/printf-project"
 	},
 	"version" : 
 	{
