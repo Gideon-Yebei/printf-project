@@ -1,4 +1,4 @@
-> # printf-project
+> ## By:- [ Dennis Miring'u](https://github.com/Dennis1287) | [Gideon-Yebei](https://github.com/Gideon-Yebei)
 
 > ## ALX printf project
 
@@ -33,3 +33,5 @@ va_arg (man 3 va_arg)
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -Wno-format -std=gnu89 *.c
 ```
+
+> ## By:- [ Dennis Miring'u](https://github.com/Dennis1287) | [Gideon-Yebei](https://github.com/Gideon-Yebei)
