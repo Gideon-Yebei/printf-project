@@ -51,4 +51,18 @@ add_executable(printf
 		print_hexa_upper.c
 		print_hexa_upper.h
 		print_unsigned.c
-		print_unsigned.h)
+		print_unsigned.h
+		print_string.c
+		print_string.h
+		print_percent.c
+		print_percent.h
+		print_octal.c
+		print_octal.h
+		print_pointer.c
+		print_pointer.h
+		print_reverse.c
+		print_reverse.h
+		print_rot13string.c
+		print_rot13string.h
+		print_non_printable.c
+		print_non_printable.h)

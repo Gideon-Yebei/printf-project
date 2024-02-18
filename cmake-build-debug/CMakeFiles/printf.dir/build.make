@@ -405,6 +405,104 @@ CMakeFiles/printf.dir/print_unsigned.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_unsigned.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_unsigned.c -o CMakeFiles/printf.dir/print_unsigned.c.s
 
+CMakeFiles/printf.dir/print_string.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/print_string.c.o: /home/zenith/CLionProjects/printf-project/print_string.c
+CMakeFiles/printf.dir/print_string.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/printf.dir/print_string.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/print_string.c.o -MF CMakeFiles/printf.dir/print_string.c.o.d -o CMakeFiles/printf.dir/print_string.c.o -c /home/zenith/CLionProjects/printf-project/print_string.c
+
+CMakeFiles/printf.dir/print_string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printf.dir/print_string.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zenith/CLionProjects/printf-project/print_string.c > CMakeFiles/printf.dir/print_string.c.i
+
+CMakeFiles/printf.dir/print_string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_string.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_string.c -o CMakeFiles/printf.dir/print_string.c.s
+
+CMakeFiles/printf.dir/print_percent.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/print_percent.c.o: /home/zenith/CLionProjects/printf-project/print_percent.c
+CMakeFiles/printf.dir/print_percent.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/printf.dir/print_percent.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/print_percent.c.o -MF CMakeFiles/printf.dir/print_percent.c.o.d -o CMakeFiles/printf.dir/print_percent.c.o -c /home/zenith/CLionProjects/printf-project/print_percent.c
+
+CMakeFiles/printf.dir/print_percent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printf.dir/print_percent.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zenith/CLionProjects/printf-project/print_percent.c > CMakeFiles/printf.dir/print_percent.c.i
+
+CMakeFiles/printf.dir/print_percent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_percent.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_percent.c -o CMakeFiles/printf.dir/print_percent.c.s
+
+CMakeFiles/printf.dir/print_octal.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/print_octal.c.o: /home/zenith/CLionProjects/printf-project/print_octal.c
+CMakeFiles/printf.dir/print_octal.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/printf.dir/print_octal.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/print_octal.c.o -MF CMakeFiles/printf.dir/print_octal.c.o.d -o CMakeFiles/printf.dir/print_octal.c.o -c /home/zenith/CLionProjects/printf-project/print_octal.c
+
+CMakeFiles/printf.dir/print_octal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printf.dir/print_octal.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zenith/CLionProjects/printf-project/print_octal.c > CMakeFiles/printf.dir/print_octal.c.i
+
+CMakeFiles/printf.dir/print_octal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_octal.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_octal.c -o CMakeFiles/printf.dir/print_octal.c.s
+
+CMakeFiles/printf.dir/print_pointer.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/print_pointer.c.o: /home/zenith/CLionProjects/printf-project/print_pointer.c
+CMakeFiles/printf.dir/print_pointer.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/printf.dir/print_pointer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/print_pointer.c.o -MF CMakeFiles/printf.dir/print_pointer.c.o.d -o CMakeFiles/printf.dir/print_pointer.c.o -c /home/zenith/CLionProjects/printf-project/print_pointer.c
+
+CMakeFiles/printf.dir/print_pointer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printf.dir/print_pointer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zenith/CLionProjects/printf-project/print_pointer.c > CMakeFiles/printf.dir/print_pointer.c.i
+
+CMakeFiles/printf.dir/print_pointer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_pointer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_pointer.c -o CMakeFiles/printf.dir/print_pointer.c.s
+
+CMakeFiles/printf.dir/print_reverse.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/print_reverse.c.o: /home/zenith/CLionProjects/printf-project/print_reverse.c
+CMakeFiles/printf.dir/print_reverse.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/printf.dir/print_reverse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/print_reverse.c.o -MF CMakeFiles/printf.dir/print_reverse.c.o.d -o CMakeFiles/printf.dir/print_reverse.c.o -c /home/zenith/CLionProjects/printf-project/print_reverse.c
+
+CMakeFiles/printf.dir/print_reverse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printf.dir/print_reverse.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zenith/CLionProjects/printf-project/print_reverse.c > CMakeFiles/printf.dir/print_reverse.c.i
+
+CMakeFiles/printf.dir/print_reverse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_reverse.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_reverse.c -o CMakeFiles/printf.dir/print_reverse.c.s
+
+CMakeFiles/printf.dir/print_rot13string.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/print_rot13string.c.o: /home/zenith/CLionProjects/printf-project/print_rot13string.c
+CMakeFiles/printf.dir/print_rot13string.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/printf.dir/print_rot13string.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/print_rot13string.c.o -MF CMakeFiles/printf.dir/print_rot13string.c.o.d -o CMakeFiles/printf.dir/print_rot13string.c.o -c /home/zenith/CLionProjects/printf-project/print_rot13string.c
+
+CMakeFiles/printf.dir/print_rot13string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printf.dir/print_rot13string.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zenith/CLionProjects/printf-project/print_rot13string.c > CMakeFiles/printf.dir/print_rot13string.c.i
+
+CMakeFiles/printf.dir/print_rot13string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_rot13string.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_rot13string.c -o CMakeFiles/printf.dir/print_rot13string.c.s
+
+CMakeFiles/printf.dir/print_non_printable.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/print_non_printable.c.o: /home/zenith/CLionProjects/printf-project/print_non_printable.c
+CMakeFiles/printf.dir/print_non_printable.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/printf.dir/print_non_printable.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/print_non_printable.c.o -MF CMakeFiles/printf.dir/print_non_printable.c.o.d -o CMakeFiles/printf.dir/print_non_printable.c.o -c /home/zenith/CLionProjects/printf-project/print_non_printable.c
+
+CMakeFiles/printf.dir/print_non_printable.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printf.dir/print_non_printable.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zenith/CLionProjects/printf-project/print_non_printable.c > CMakeFiles/printf.dir/print_non_printable.c.i
+
+CMakeFiles/printf.dir/print_non_printable.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printf.dir/print_non_printable.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zenith/CLionProjects/printf-project/print_non_printable.c -o CMakeFiles/printf.dir/print_non_printable.c.s
+
 # Object files for target printf
 printf_OBJECTS = \
 "CMakeFiles/printf.dir/_printf.c.o" \
@@ -430,7 +528,14 @@ printf_OBJECTS = \
 "CMakeFiles/printf.dir/write_number.c.o" \
 "CMakeFiles/printf.dir/write_pointer.c.o" \
 "CMakeFiles/printf.dir/print_hexa_upper.c.o" \
-"CMakeFiles/printf.dir/print_unsigned.c.o"
+"CMakeFiles/printf.dir/print_unsigned.c.o" \
+"CMakeFiles/printf.dir/print_string.c.o" \
+"CMakeFiles/printf.dir/print_percent.c.o" \
+"CMakeFiles/printf.dir/print_octal.c.o" \
+"CMakeFiles/printf.dir/print_pointer.c.o" \
+"CMakeFiles/printf.dir/print_reverse.c.o" \
+"CMakeFiles/printf.dir/print_rot13string.c.o" \
+"CMakeFiles/printf.dir/print_non_printable.c.o"
 
 # External object files for target printf
 printf_EXTERNAL_OBJECTS =
@@ -459,9 +564,16 @@ printf: CMakeFiles/printf.dir/write_number.c.o
 printf: CMakeFiles/printf.dir/write_pointer.c.o
 printf: CMakeFiles/printf.dir/print_hexa_upper.c.o
 printf: CMakeFiles/printf.dir/print_unsigned.c.o
+printf: CMakeFiles/printf.dir/print_string.c.o
+printf: CMakeFiles/printf.dir/print_percent.c.o
+printf: CMakeFiles/printf.dir/print_octal.c.o
+printf: CMakeFiles/printf.dir/print_pointer.c.o
+printf: CMakeFiles/printf.dir/print_reverse.c.o
+printf: CMakeFiles/printf.dir/print_rot13string.c.o
+printf: CMakeFiles/printf.dir/print_non_printable.c.o
 printf: CMakeFiles/printf.dir/build.make
 printf: CMakeFiles/printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zenith/CLionProjects/printf-project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

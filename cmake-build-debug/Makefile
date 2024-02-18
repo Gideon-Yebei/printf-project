@@ -585,6 +585,174 @@ print_int.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_int.c.s
 .PHONY : print_int.c.s
 
+print_non_printable.o: print_non_printable.c.o
+.PHONY : print_non_printable.o
+
+# target to build an object file
+print_non_printable.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_non_printable.c.o
+.PHONY : print_non_printable.c.o
+
+print_non_printable.i: print_non_printable.c.i
+.PHONY : print_non_printable.i
+
+# target to preprocess a source file
+print_non_printable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_non_printable.c.i
+.PHONY : print_non_printable.c.i
+
+print_non_printable.s: print_non_printable.c.s
+.PHONY : print_non_printable.s
+
+# target to generate assembly for a file
+print_non_printable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_non_printable.c.s
+.PHONY : print_non_printable.c.s
+
+print_octal.o: print_octal.c.o
+.PHONY : print_octal.o
+
+# target to build an object file
+print_octal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_octal.c.o
+.PHONY : print_octal.c.o
+
+print_octal.i: print_octal.c.i
+.PHONY : print_octal.i
+
+# target to preprocess a source file
+print_octal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_octal.c.i
+.PHONY : print_octal.c.i
+
+print_octal.s: print_octal.c.s
+.PHONY : print_octal.s
+
+# target to generate assembly for a file
+print_octal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_octal.c.s
+.PHONY : print_octal.c.s
+
+print_percent.o: print_percent.c.o
+.PHONY : print_percent.o
+
+# target to build an object file
+print_percent.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_percent.c.o
+.PHONY : print_percent.c.o
+
+print_percent.i: print_percent.c.i
+.PHONY : print_percent.i
+
+# target to preprocess a source file
+print_percent.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_percent.c.i
+.PHONY : print_percent.c.i
+
+print_percent.s: print_percent.c.s
+.PHONY : print_percent.s
+
+# target to generate assembly for a file
+print_percent.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_percent.c.s
+.PHONY : print_percent.c.s
+
+print_pointer.o: print_pointer.c.o
+.PHONY : print_pointer.o
+
+# target to build an object file
+print_pointer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_pointer.c.o
+.PHONY : print_pointer.c.o
+
+print_pointer.i: print_pointer.c.i
+.PHONY : print_pointer.i
+
+# target to preprocess a source file
+print_pointer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_pointer.c.i
+.PHONY : print_pointer.c.i
+
+print_pointer.s: print_pointer.c.s
+.PHONY : print_pointer.s
+
+# target to generate assembly for a file
+print_pointer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_pointer.c.s
+.PHONY : print_pointer.c.s
+
+print_reverse.o: print_reverse.c.o
+.PHONY : print_reverse.o
+
+# target to build an object file
+print_reverse.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_reverse.c.o
+.PHONY : print_reverse.c.o
+
+print_reverse.i: print_reverse.c.i
+.PHONY : print_reverse.i
+
+# target to preprocess a source file
+print_reverse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_reverse.c.i
+.PHONY : print_reverse.c.i
+
+print_reverse.s: print_reverse.c.s
+.PHONY : print_reverse.s
+
+# target to generate assembly for a file
+print_reverse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_reverse.c.s
+.PHONY : print_reverse.c.s
+
+print_rot13string.o: print_rot13string.c.o
+.PHONY : print_rot13string.o
+
+# target to build an object file
+print_rot13string.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_rot13string.c.o
+.PHONY : print_rot13string.c.o
+
+print_rot13string.i: print_rot13string.c.i
+.PHONY : print_rot13string.i
+
+# target to preprocess a source file
+print_rot13string.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_rot13string.c.i
+.PHONY : print_rot13string.c.i
+
+print_rot13string.s: print_rot13string.c.s
+.PHONY : print_rot13string.s
+
+# target to generate assembly for a file
+print_rot13string.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_rot13string.c.s
+.PHONY : print_rot13string.c.s
+
+print_string.o: print_string.c.o
+.PHONY : print_string.o
+
+# target to build an object file
+print_string.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_string.c.o
+.PHONY : print_string.c.o
+
+print_string.i: print_string.c.i
+.PHONY : print_string.i
+
+# target to preprocess a source file
+print_string.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_string.c.i
+.PHONY : print_string.c.i
+
+print_string.s: print_string.c.s
+.PHONY : print_string.s
+
+# target to generate assembly for a file
+print_string.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/print_string.c.s
+.PHONY : print_string.c.s
+
 print_unsigned.o: print_unsigned.c.o
 .PHONY : print_unsigned.o
 
@@ -771,6 +939,27 @@ help:
 	@echo "... print_int.o"
 	@echo "... print_int.i"
 	@echo "... print_int.s"
+	@echo "... print_non_printable.o"
+	@echo "... print_non_printable.i"
+	@echo "... print_non_printable.s"
+	@echo "... print_octal.o"
+	@echo "... print_octal.i"
+	@echo "... print_octal.s"
+	@echo "... print_percent.o"
+	@echo "... print_percent.i"
+	@echo "... print_percent.s"
+	@echo "... print_pointer.o"
+	@echo "... print_pointer.i"
+	@echo "... print_pointer.s"
+	@echo "... print_reverse.o"
+	@echo "... print_reverse.i"
+	@echo "... print_reverse.s"
+	@echo "... print_rot13string.o"
+	@echo "... print_rot13string.i"
+	@echo "... print_rot13string.s"
+	@echo "... print_string.o"
+	@echo "... print_string.i"
+	@echo "... print_string.s"
 	@echo "... print_unsigned.o"
 	@echo "... print_unsigned.i"
 	@echo "... print_unsigned.s"

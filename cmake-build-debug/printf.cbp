@@ -190,6 +190,48 @@
 		<Unit filename="/home/zenith/CLionProjects/printf-project/print_int.h">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_non_printable.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_non_printable.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_octal.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_octal.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_percent.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_percent.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_pointer.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_pointer.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_reverse.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_reverse.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_rot13string.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_rot13string.h">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_string.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/home/zenith/CLionProjects/printf-project/print_string.h">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/home/zenith/CLionProjects/printf-project/print_unsigned.c">
 			<Option target="printf"/>
 		</Unit>
